@@ -207,6 +207,8 @@ res = model.generate(
     merge_vad=True,
     merge_length_s=15,
 )
+
+print(res)
 inference_end = time.perf_counter()
 first_inference_time = inference_end - inference_start
 
